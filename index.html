@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form validation</title>
+</head>
+<body>
+    <div id="root">
+        <form class="form" id="form-1">
+            <h1 class="form-header">Đăng kí tài khoản</h1>
+            <h3 class="form-subhead">Cùng gia nhập cộng đồng của chúng tôi</h3>
+            <div class="form-group">
+                <label class="form-lable" for="fullname">Tên đầy đủ</label>
+                <input class="form-input" type="text" id="fullname" placeholder="Tran Nam">
+                <div class="form-message"></div>
+            </div>
+            <div class="form-group">
+                <label class="form-lable" for="email">Email</label>
+                <input class="form-input" type="text" id="email" placeholder="email@ex.com">
+                <div class="form-message"></div>
+            </div>
+            <div class="form-group">
+                <label class="form-lable" for="password">Mật khẩu</label>
+                <input class="form-input" type="text" id="password" placeholder="Mật khẩu">
+                <div class="form-message"></div>
+            </div>
+            <div class="form-group">
+                <label class="form-lable" for="pw-confirm">Nhập lại mật khẩu</label>
+                <input class="form-input" type="text" id="pw-confirm" placeholder="Nhập lại mật khẩu">
+                <div class="form-message"></div>
+            </div>
+            <input type="submit" value="Đăng ký" class="form-submit">
+        </form>
+    </div>
+</body>
+</html>
