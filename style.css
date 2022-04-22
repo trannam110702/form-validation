@@ -7,7 +7,8 @@
     --text-color: rgb(0, 106, 104);
 }
 html {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    ;
 }
 #root {
     width: 100%;
@@ -61,7 +62,7 @@ html {
     font-weight: 100;
 }
 .form-submit {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
     width: 100%;
     padding: 10px 20px;
     margin-top: 20px;
