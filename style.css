@@ -43,7 +43,7 @@ html {
     align-items: flex-start;
 }
 .form-lable {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
 }
 .form-input {
@@ -58,8 +58,10 @@ html {
     color: var(--text-color);
 }
 .form-message {
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 100;
+    padding-bottom: 6px;
+    color: red;
 }
 .form-submit {
     font-family: 'Roboto', sans-serif;
